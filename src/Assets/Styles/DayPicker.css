@@ -1,0 +1,18 @@
+.rdp-day_range_end.rdp-day_range_start {
+    background-color: rgba(24, 24, 24, .5) !important;
+}
+
+.rdp-day_selected,
+.rdp-day_selected:focus-visible,
+.rdp-day_selected:hover {
+    background-color: rgba(24, 24, 24, .5) !important;
+}
+
+.rdp-day_selected {
+    border-radius: 111px !important;
+    background-color: rgba(24, 24, 24, .5) !important;
+}
+
+.rdp{
+    margin-top: 0 !important;
+}

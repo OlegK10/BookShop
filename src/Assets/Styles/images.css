@@ -1,0 +1,42 @@
+.img-preview {
+    background-image: url('https://img.freepik.com/free-photo/luxury-pool-villa-spectacular-contemporary-design-digital-art-real-estate-home-house-property-ge_1258-150765.jpg?w=1060&t=st=1707928105~exp=1707928705~hmac=03850a7277afa569f2f0e41573e639984a842dc8698b90e9ae279c95e6e49314');
+}
+
+.img-bg {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.img-1 {
+    background-image: url('https://img.freepik.com/free-photo/interior-modern-comfortable-hotel-room_1232-1822.jpg?w=1060&t=st=1707931710~exp=1707932310~hmac=1c5f3a869d60abd0ee3b3a75630e867bb0cb57b7d813e08513483f41a5463df4');
+}
+
+.img-2 {
+    background-image: url('https://img.freepik.com/free-photo/hammocks-placed-row_1203-1358.jpg?w=360&t=st=1707931749~exp=1707932349~hmac=235756807d5e35d4db78fe985ce0a640c278867e4070e38419e9f0e707b1d655');
+}
+
+.img-3 {
+    background-image: url('https://img.freepik.com/free-photo/umbrella-chair-around-swimming-pool-resort-hotel-leisure-travel-vacation_74190-8222.jpg?w=360&t=st=1707931781~exp=1707932381~hmac=20947ce1be64b2324ff0151bcde37fefbf76902421209fe26ee299f5fd74a490');
+}
+
+.img-4 {
+    background-image: url('https://img.freepik.com/free-photo/hotel-room-luxury-resort_53876-138105.jpg?w=996&t=st=1707931816~exp=1707932416~hmac=a86c55c702fd15ff1bace305e382c481710ec26778e2c8d3a0f230d0cd3e8808');
+}
+
+.img-5 {
+    background-image: url('https://img.freepik.com/free-photo/beautiful-tropical-beach-sea-with-umbrella-chair-around-swimming-pool_74190-7487.jpg?w=360&t=st=1707935993~exp=1707936593~hmac=38c78e64cb2573062a73d72b64834faf3893ed7bdce8a285295afd7e0794f5b3');
+}
+
+.img-6 {
+    background-image: url('https://img.freepik.com/free-photo/close-up-gray-blanket-bed_1122-1470.jpg?1&w=1060&t=st=1707936447~exp=1707937047~hmac=4452838dcbc8880e7d5ab7bbba97fdf9c3dfee36ec0adbed2bde0ad6cc9e5417');
+}
+
+.img-7 {
+    background-image: url('https://img.freepik.com/premium-photo/interior-hotel-bedroom_156719-673.jpg');
+}
+
+.img-8{
+    background-image: url('https://image-tc.galaxy.tf/wipng-c5i2wpf3ksc5ha5fya6nr3sax/map.png?width=1920');
+    
+}

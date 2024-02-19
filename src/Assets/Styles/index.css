@@ -1,0 +1,98 @@
+* {
+    transition: .21s all;
+    list-style: none;
+    border:none;
+    background-image:none;
+    background-color:transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    outline: none;
+}
+
+html, body{
+    scroll-behavior: smooth;
+}
+
+.btn {
+    position: relative;
+    text-align: left;
+}
+
+a,
+button {
+    cursor: pointer;
+}
+
+.btn-l::after {
+    position: absolute;
+    transition: inherit;
+    content: '';
+    width: 0;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    height: 100%;
+    border-bottom: 1px solid white;
+}
+
+.btn-d::after {
+    position: absolute;
+    transition: inherit;
+    content: '';
+    width: 0;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    height: 100%;
+    border-bottom: 1px solid black;
+}
+
+.btn-active::after {
+    width: 100%;
+}
+
+.btn>* .btn:hover:after {
+    width: 100%;
+}
+
+.btn:hover:after {
+    width: 100%;
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('./DayPicker.css');
+
+@import 'swiper/css';
+@import 'swiper/css/autoplay';
+@import 'swiper/css/navigation';
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
